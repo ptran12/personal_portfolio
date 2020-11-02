@@ -38,6 +38,7 @@ body {
 
 .icon:hover {
   transform: scale(1.5);
+  color: rgb(6, 199, 6);
 }
 
 .card {
@@ -55,6 +56,11 @@ body {
   color: white;
 }
 
+.card a:hover {
+  opacity: 0.5;
+  color: aquamarine;
+}
+
 .card:hover {
-  transform: scale(1.09);
+  transform: scale(1.05);
 }

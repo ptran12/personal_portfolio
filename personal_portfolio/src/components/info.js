@@ -10,7 +10,7 @@ export default function info() {
         <span style={{ color: "white" }}>Hello, my name is</span> <br />
         Phi.
       </div>
-      <div style={{ color: "yellow" }} className="h1 code mt-4 mb-3">
+      <div style={{ color: "rgb(6, 199, 6)" }} className="h1 code mt-4 mb-3">
         {"{"}
       </div>
       <div className="mx-5 my-4 h3 text-justify info">
@@ -18,7 +18,7 @@ export default function info() {
         <br /> I strive to always learn more and improve as much as possible so
         that I can grow as a Developer and person.
       </div>
-      <div style={{ color: "yellow" }} className="h1 code mt-2 mb-3">
+      <div style={{ color: "rgb(6, 199, 6)" }} className="h1 code mt-2 mb-3">
         {"}"}
       </div>
       <div className="h1 mt-5">
