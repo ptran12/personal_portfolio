@@ -19,6 +19,7 @@ function Projects({ data }) {
         {projectList.map(({ node }) => {
           return (
             <Card
+              cardCover={node.image}
               cardTitle={node.title}
               cardSubtitle={node.subtitle}
               link={node.link}
@@ -42,6 +43,7 @@ export const query = graphql`
           subtitle
           link
           id
+          image
         }
       }
     }
